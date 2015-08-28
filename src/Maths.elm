@@ -1,6 +1,6 @@
 module Maths where
-{-| 
-    
+{-|
+
 @docs adding, subtracting, division, multiplication
     -}
 import Native.Maths
@@ -14,9 +14,9 @@ subtracting : Int -> Int -> Int
 subtracting = Native.Maths.subtracting
 
 {-| -}
-division : Int -> Int -> Int
-division = Native.Maths.division
+divisioning : Int -> Int -> Int
+divisioning = Native.Maths.divisioning
 
 {-| -}
-multiplication : Int -> Int -> Int
-multiplication = Native.Maths.multiplication
+multiplicationing : Int -> Int -> Int
+multiplicationing = Native.Maths.multiplicationing

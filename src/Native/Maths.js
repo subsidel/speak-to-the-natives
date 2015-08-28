@@ -15,19 +15,19 @@ Elm.Native.Maths.make = function(localRuntime) {
         return a - b;
     };
 
-    var division = function(a, b){
+    var divisioning = function(a, b){
         return a / b || 0;
     };
 
-    var multiplication = function(a, b){
+    var multiplicationing = function(a, b){
         return a * b;
     };
 
     return Elm.Native.Maths.values = {
         adding: F2(adding),
         subtracting: F2(subtracting),
-        division: F2(division),
-        multiplication: F2(multiplication) 
+        divisioning: F2(divisioning),
+        multiplicationing: F2(multiplicationing) 
     };
 
 };
